@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lemonessのお問い合わせ先と、端末内の記録に関するご案内。">
+  <title>Lemoness Support</title>
+  <style>
+    :root { color-scheme: light; --ivory: #FFFBEF; --lemon: #FFE066; --white: #FFFFFF; --charcoal: #1F1F1F; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--ivory); color: var(--charcoal); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.85; overflow-wrap: anywhere; }
+    main { max-width: 48rem; margin: 3rem auto; padding: 2.5rem; background: var(--white); border-top: 6px solid var(--lemon); border-radius: 12px; }
+    h1 { margin: 0 0 0.75rem; font-size: clamp(1.6rem, 5vw, 2rem); line-height: 1.4; }
+    h2 { margin: 2rem 0 0.5rem; font-size: 1.2rem; line-height: 1.5; }
+    p { margin: 0.75rem 0; }
+    ul { padding-left: 1.5rem; }
+    li + li { margin-top: 0.4rem; }
+    a { color: var(--charcoal); text-decoration: underline; text-underline-offset: 0.2em; }
+    a:focus-visible { outline: 3px solid var(--charcoal); outline-offset: 4px; background: var(--lemon); }
+    .contact { display: inline-block; padding: 0.3rem 0.65rem; background: var(--ivory); border: 1px solid var(--lemon); border-radius: 4px; font-weight: 600; }
+    footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--lemon); }
+    @media (max-width: 600px) { main { margin: 1rem; padding: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Lemoness Support</h1>
+      <p>Lemonessは、リフォーマーピラティスのレッスンで取り組んだことや、成長を感じたところを記録するiPhoneアプリです。</p>
+    </header>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">お問い合わせ</h2>
+      <p>使い方のご質問や不具合については、次の連絡先へお送りください。</p>
+      <p><a class="contact" href="mailto:lemoness.support@gmail.com">lemoness.support@gmail.com</a></p>
+      <p>不具合のお問い合わせでは、分かる範囲で次の情報をお知らせください。</p>
+      <ul>
+        <li>iPhoneの機種</li>
+        <li>iOSのバージョン</li>
+        <li>Lemonessのアプリバージョン</li>
+        <li>発生した問題と、そのときの操作</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="data">
+      <h2 id="data">データについて</h2>
+      <p>レッスンの記録は、利用者の端末内に保存されます。アカウントは不要で、開発者が運営するクラウド同期機能はありません。</p>
+      <p>アプリの削除や機種変更により、記録を利用できなくなる場合があります。バックアップや復元の結果は、Apple・iOSの設定や利用状況に依存するため、記録の復元を保証するものではありません。</p>
+    </section>
+
+    <section aria-labelledby="privacy">
+      <h2 id="privacy">プライバシーポリシー</h2>
+      <p>情報の取り扱いについては、<a href="privacy.html">Lemoness プライバシーポリシー</a>をご覧ください。</p>
+    </section>
+  </main>
+</body>
+</html>
